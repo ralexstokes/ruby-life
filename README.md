@@ -1,7 +1,5 @@
 # Conway's Game of Life, in Ruby
 
-#### github.com/ralexstokes
-
 ### Usage
 
     ruby run.rb $INPUT_FILE
