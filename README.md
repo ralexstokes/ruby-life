@@ -4,7 +4,7 @@
 
     ruby run.rb $INPUT_FILE
 
-where $INPUT_FILE is a JSON file with a group of rows.
+where `$INPUT_FILE` is a JSON file with a group of rows.
 Each row is an array of strings {'dead', 'alive'} that is used to
 populate the program's representation of the game.
 
