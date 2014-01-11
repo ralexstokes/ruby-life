@@ -1,4 +1,4 @@
-require './lib/life/'
+require './lib/life'
 
 SEED_FILE = ARGV[0]
 
