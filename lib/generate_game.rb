@@ -1,6 +1,4 @@
-require './life'
-
-MODULE_NAME = 'life.rb'
+require 'ruby-life'
 
 class GridBuilder
   attr_reader :grid_size, :state
@@ -29,4 +27,4 @@ gm = GridBuilder.new size
 gm.create_grid
 initial_grid = Grid.new(nil, gm.state)
 initial_grid.pad_boundaries!
-initial_grid.save('random.json')
+initial_grid.save('../examples/random.json')

@@ -1,6 +1,6 @@
 require 'json'
 
-MODULE_NAME = 'life.rb'
+MODULE_NAME = 'ruby-life'
 
 class Cell
   attr_accessor :alive, :neighbors
