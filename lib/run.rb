@@ -21,7 +21,7 @@ game = GameOfLife.new grid
 system 'clear'
 100.times do
   game.advance
-  sleep 1
+  sleep 0.1
   system 'clear'
 end
 
