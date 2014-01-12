@@ -1,10 +1,10 @@
 # Conway's Game of Life, in Ruby
 
 ### Usage
-
+    gem install ruby-life
     ruby run.rb $INPUT_FILE
 
-where `$INPUT_FILE` is a JSON file with a group of rows.
+where `run.rb` is an example game in `lib/` and `$INPUT_FILE` is a JSON file with a group of rows.
 Each row is an array of strings {'dead', 'alive'} that is used to
 populate the program's representation of the game.
 
