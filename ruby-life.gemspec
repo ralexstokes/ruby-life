@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.email         = [""]
   s.homepage      = "http://alex.stokes.io"
   s.summary       = "Conway's Game of Life, in Ruby"
-  s.description   = "http://en.wikipedia.org/wiki/Conway's_Game_of_Life"
+  s.description   = "http://en.wikipedia.org/wiki/Conway's_Game_of_Life, with faster sleep time"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {spec}/*`.split("\n")
