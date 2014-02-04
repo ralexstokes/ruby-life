@@ -43,16 +43,18 @@ class Grid
 
   def initialize(input_file = nil, input_state = [])
     @state = input_state
-    load input_file if input_file
+    if input_file
+      input_hash = load input_file
+      make_cells input_hash
+    end
     @grid_size = state.size
   end
 
   def load(input_file)
-    input_hash = File.open(input_file) do |f|
+    File.open(input_file) do |f|
       input_json = f.read
       JSON.parse input_json
     end
-    make_cells input_hash
   end
 
   def save(output_file)

@@ -13,5 +13,8 @@ For more information on the game itself, see here:
 
 Written with inspiration from [http://rubyquiz.strd6.com/quizzes/193-game-of-life](http://rubyquiz.strd6.com/quizzes/193-game-of-life)
 
+### Todo
+Add quantum states to Cell model.  Cell.status = a|alive> + b|dead>. Extend to [quantum cellular automata](http://en.wikipedia.org/wiki/Quantum_cellular_automata)
+
 ### Questions, comments?
 @ralexstokes on Twitter

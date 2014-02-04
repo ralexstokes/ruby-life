@@ -38,7 +38,7 @@ describe Cell do
     end
   end
 
-  describe '#to_{i, s, sym}' do
+  describe '#to_{i, s, sym} - representation methods' do
     it 'should yield {1, "O", :alive} for alive cell' do
       cell_alive.to_i.should eq 1
       cell_alive.to_s.should eq 'O'
